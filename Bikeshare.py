@@ -275,7 +275,8 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        raw = input("Do you want to see raw data? Please type 'yes' or 'no':")
+        #raw = input("Do you want to see raw data? Please type 'yes' or 'no':")
+		raw = 'yes'
         if raw.strip().lower() == 'yes':
             display_raw_data(df)
 
@@ -283,6 +284,7 @@ def main():
         if restart.lower() != 'yes':
             break
 	print("Thank you!")	
+	
 
 
 if __name__ == "__main__":

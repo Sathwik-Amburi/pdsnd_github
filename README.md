@@ -1,3 +1,5 @@
+###Hello there! 
+
 ### Date created
 I've created this on 25-08-2019
 
@@ -12,4 +14,6 @@ bikeshare.py
 
 ### Credits
 Udacity resources.
+
+
 
